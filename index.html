@@ -5,18 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="queries.css" />
     <title>Acme Web Solutions</title>
   </head>
   <body>
     <!-- HEADER SHOWCASE -->
     <header id="showcase" class="grid">
       <div class="bg-image"></div>
-      <h1>Welcome to Acme Web Solutions</h1>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic dolore
-        eligendi, ab quis blanditiis reprehenderit sequi!
-      </p>
-      <a href="#section-b" class="btn">Read More</a>
+      <div class="content-wrap">
+        <h1>Welcome to Acme Web Solutions</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic dolore
+          eligendi, ab quis blanditiis reprehenderit sequi!
+        </p>
+        <a href="#section-b" class="btn">Read More</a>
+      </div>
     </header>
 
     <!-- MAIN AREA -->
@@ -25,12 +28,14 @@
       <section id="section-a" class="grid">
         <div class="content-wrap">
           <h2 class="content-title">Web & Application Development</h2>
-          <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio
-            corrupti tenetur quidem consequuntur molestias quaerat numquam fuga,
-            eligendi quam quia quis harum voluptatibus inventore mollitia amet
-            corporis ullam nesciunt hic?
-          </p>
+          <div class="content-text">
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio
+              corrupti tenetur quidem consequuntur molestias quaerat numquam
+              fuga, eligendi quam quia quis harum voluptatibus inventore
+              mollitia amet corporis ullam nesciunt hic?
+            </p>
+          </div>
         </div>
       </section>
       <!-- SECTION B -->
@@ -119,7 +124,7 @@
           <p>contact@acmewebsolutions.test</p>
         </div>
         <div class="box">
-          <h2 class="content-title"></h2>
+          <!-- <h2 class="content-title"></h2> -->
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus,
             cumque. Atque pariatur maxime reprehenderit sed tempora harum a
